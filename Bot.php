@@ -1,4 +1,4 @@
-$data =  Bittrex::getChartData('BTC-BLK', $tickInterval='hour');
+$data =  Bittrex::getChartData('USDt-BTC', $tickInterval='hour');
 
 foreach ($data['result'] as $d){
     $clean[] = $d['C'];
